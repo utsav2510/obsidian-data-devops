@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"type":"file","file":"SQL/Concepts/Database Normal Forms.md","id":"6a0c0f822f2f0951","x":-1700,"y":-640,"width":540,"height":400},
+		{"type":"text","text":"### Only First 3 Normal Forms are generally followed","id":"6dd1a71605618c2d","x":-1700,"y":-160,"width":540,"height":80,"color":"2"},
+		{"type":"text","text":"# SQL Concepts","id":"3c14e13cd12ecc85","x":-1090,"y":-920,"width":250,"height":60},
+		{"type":"file","file":"SQL/Concepts/SQL Joins.md","id":"7f421590418ce485","x":-1120,"y":-640,"width":720,"height":600},
+		{"type":"file","file":"SQL/Concepts/SQL Naming Conventions.md","id":"3ade96cb8d6a72d3","x":-360,"y":-640,"width":600,"height":600},
+		{"id":"11767ba3e8f4d1a1","x":-400,"y":-1200,"width":400,"height":400,"type":"file","file":"SQL/Concepts/Order of Execution.md"}
+	],
+	"edges":[
+		{"id":"19bd05a739b45572","fromNode":"6dd1a71605618c2d","fromSide":"top","toNode":"6a0c0f822f2f0951","toSide":"bottom"},
+		{"id":"a2ace670527328a1","fromNode":"3c14e13cd12ecc85","fromSide":"bottom","toNode":"6a0c0f822f2f0951","toSide":"top"},
+		{"id":"a49665e03f5605ce","fromNode":"3c14e13cd12ecc85","fromSide":"bottom","toNode":"7f421590418ce485","toSide":"top"},
+		{"id":"f1bc44d7ad6309ea","fromNode":"3c14e13cd12ecc85","fromSide":"bottom","toNode":"3ade96cb8d6a72d3","toSide":"top"},
+		{"id":"0fea86ce0b41c1bb","fromNode":"3c14e13cd12ecc85","fromSide":"right","toNode":"11767ba3e8f4d1a1","toSide":"left"}
+	]
+}
